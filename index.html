@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Accounts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="device">
+    <div class="screen">
+      <!-- iOS status bar (shown only inside the desktop phone frame) -->
+      <div class="status-bar">
+        <span class="time">9:41</span>
+        <div class="notch"><span class="camera"></span></div>
+        <div class="status-icons">
+          <img src="images/signal.svg" alt="" width="18" height="12">
+          <img src="images/wifi.svg" alt="" width="17" height="12">
+          <img src="images/battery.svg" alt="" width="27" height="13">
+        </div>
+      </div>
+
+      <main class="content">
+        <div class="top-actions">
+          <a href="#" class="link">Customize</a>
+        </div>
+
+        <h1 class="page-title">Accounts</h1>
+
+        <section class="summary" id="summary">
+          <h2 class="summary-label">Total Value</h2>
+          <div class="summary-total">
+            <span>$435,893.64</span>
+            <button class="toggle" aria-expanded="true" aria-controls="summary-detail" aria-label="Collapse total value details">
+              <img src="images/chevron-up.svg" alt="" width="20" height="12">
+            </button>
+          </div>
+          <div class="summary-detail" id="summary-detail">
+            <div class="summary-col">
+              <h3>Summit Value</h3>
+              <p>$70,110.06</p>
+            </div>
+            <div class="summary-col">
+              <h3>Total Liabilities</h3>
+              <p>$10,000.00</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="activity">
+          <div class="section-head">
+            <h2>Activity</h2>
+            <a href="#" class="link">See All</a>
+          </div>
+          <div class="activity-band">
+            <div class="activity-track">
+              <article class="activity-card">
+                <div class="ac-row ac-meta">
+                  <span>ROTH IRA-1</span>
+                  <span>7/18/2025</span>
+                </div>
+                <div class="ac-row ac-title">
+                  <span>Monthly Reinvestment</span>
+                  <span class="pill">Pending</span>
+                </div>
+                <div class="ac-row ac-line">
+                  <span>PERSONAL CK#200</span>
+                  <span>$200.00</span>
+                </div>
+                <div class="ac-line">ADDITIONAL TEXT</div>
+                <div class="ac-shares">Shares: 0.07</div>
+              </article>
+              <article class="activity-card">
+                <div class="ac-row ac-meta">
+                  <span>ROTH IRA-1</span>
+                  <span>7/15/2025</span>
+                </div>
+                <div class="ac-row ac-title">
+                  <span>2025 Roth Contribution</span>
+                </div>
+                <div class="ac-row ac-line">
+                  <span>PERSONAL CK#200</span>
+                  <span>$500.00</span>
+                </div>
+                <div class="ac-line">ADDITIONAL TEXT</div>
+                <div class="ac-shares">Shares: 1.69</div>
+              </article>
+              <article class="activity-card">
+                <div class="ac-row ac-meta">
+                  <span>INDIVIDUAL-1</span>
+                  <span>7/01/2025</span>
+                </div>
+                <div class="ac-row ac-title">
+                  <span>Dividend Payment</span>
+                </div>
+                <div class="ac-row ac-line">
+                  <span>CASH SWEEP</span>
+                  <span>$42.18</span>
+                </div>
+                <div class="ac-line">ADDITIONAL TEXT</div>
+                <div class="ac-shares">Shares: 0.00</div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="overview">
+          <h2 class="section-title">Overview</h2>
+          <div class="group-card">
+            <button class="group-head" aria-expanded="true" aria-controls="investments-list">
+              <span>Investments</span>
+              <img src="images/chevron-up.svg" alt="" width="20" height="12">
+            </button>
+            <ul class="group-list" id="investments-list">
+              <li>
+                <a href="#" class="acct">
+                  <img class="acct-logo" src="images/logo.svg" alt="" width="37" height="37">
+                  <span class="acct-text">
+                    <span class="acct-name">Individual Checking-1</span>
+                    <span class="acct-num">****1111</span>
+                  </span>
+                  <span class="acct-bal">$3,000.70</span>
+                  <img class="acct-chev" src="images/chevron-right.svg" alt="" width="10" height="18">
+                </a>
+              </li>
+              <li>
+                <a href="#" class="acct">
+                  <img class="acct-logo" src="images/logo.svg" alt="" width="37" height="37">
+                  <span class="acct-text">
+                    <span class="acct-name">Individual Checking-2</span>
+                    <span class="acct-num">****1111</span>
+                  </span>
+                  <span class="acct-bal">$2,000.25</span>
+                  <img class="acct-chev" src="images/chevron-right.svg" alt="" width="10" height="18">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+
+      <nav class="tab-bar">
+        <a href="#" class="tab"><img src="images/home.svg" alt="" width="28" height="28"><span>Home</span></a>
+        <a href="#" class="tab active"><img src="images/accounts.svg" alt="" width="28" height="28"><span>Accounts</span></a>
+        <a href="#" class="tab"><img src="images/goals.svg" alt="" width="28" height="28"><span>Goals</span></a>
+        <a href="#" class="tab"><img src="images/banking.svg" alt="" width="30" height="28"><span>Banking</span></a>
+        <a href="#" class="tab"><img class="dots" src="images/more.svg" alt="" width="28" height="8"><span>More</span></a>
+        <span class="home-indicator"></span>
+      </nav>
+    </div>
+  </div>
+
+  <script>
+    document.querySelectorAll('[aria-controls]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var open = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!open));
+        document.getElementById(btn.getAttribute('aria-controls')).hidden = open;
+      });
+    });
+  </script>
+</body>
+</html>
